@@ -14,5 +14,7 @@ export const cmdWtihDescription = (): string[] => {
     'posts:    \tDisplay my latest posts on terminal from blog.',
     'stats:    \tDisplay some of my stats on terminal.',
     'sudo:     \tI have no idea. Just try it😜',
+    'ls:      \t\tList available sections and their descriptions.',
+    'open:     \tOpen a section (e.g., "open blog" or "open projects").',
   ]
 }
