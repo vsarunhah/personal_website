@@ -35,7 +35,7 @@ const onKeyDown = (e: KeyboardEvent) => {
       input.value = result
   }
 
-  if (key === 'Enter' || code === '13') {
+  if (key === 'Enter') {
     e.preventDefault()
     shell.setLastCommandIndex(0)
     shell.setCommand(input.value)
